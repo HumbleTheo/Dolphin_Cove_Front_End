@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: "Lato", sans-serif;
+}
+
+/* Navigation Bar Styling */
+header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	background: lightblue;
+	height: 105px;
+	box-shadow: 7px 4px 17px rgba(0, 0, 0, 0.3);
+	z-index: 1;
+}
+
+.logo {
+	margin-left: 140px;
+}
+
+.DC {
+	width: 140px;
+	height: 70px;
+}
+
+.previous {
+	margin-right: 140px;
+}
+
+.pre {
+	text-decoration: none;
+	font-size: 23px;
+	color: rgb(40, 101, 125);
+}
+
+/* Main Section Styling */
+section {
+	background: rgb(87, 153, 179);
+	height: 910px;
+}
+
+.tour {
+	margin-left: 220px;
+	padding-top: 80px;
+	padding-bottom: 45px;
+	font-size: 45px;
+	font-weight: 200;
+	color: whitesmoke;
+}
+
+.main_boxes {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.big_box1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 400px;
+	height: 540px;
+	background: azure;
+	box-shadow: 20px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.box_title1 {
+	margin-top: 30px;
+	margin-bottom: -18px;
+	font-size: 27px;
+	font-weight: 100;
+	color: rgb(40, 101, 125);
+}
+
+.tour_pic {
+	background-image: url("./Media/Vacation_Boat.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 299px;
+	height: 188px;
+}
+
+.sub_info {
+	margin-top: -26px;
+	font-weight: bold;
+}
+
+.tour_info {
+	margin-top: -13px;
+	margin-bottom: -20px;
+	width: 50%;
+	justify-content: left;
+}
+
+ul li {
+	padding: 3px 0;
+	list-style-type: circle;
+}
+
+.M_btn {
+	margin-bottom: 30px;
+}
+
+.MI {
+	width: 100%;
+	padding: 6px 18px;
+	font-size: 19px;
+	border: 1px solid rgb(40, 101, 125);
+	background: rgb(40, 101, 125);
+	color: whitesmoke;
+	cursor: pointer;
+}
